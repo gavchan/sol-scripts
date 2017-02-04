@@ -1,0 +1,12 @@
+#!/bin/expect
+set username [lindex $argv 0]
+set password [lindex $argv 1]
+spawn passwd $username
+set sp_id $spawn_id
+
+expect "Password:"
+send "$password\r";
+expect "Password:"
+send "$password\r";
+wait $spawn_id
+close
