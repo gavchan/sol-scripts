@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# --- deleteuserlist.sh ---
+# --- userlistdel.sh ---
 # Reads from userlist.txt to automatically delete users in list
 # Format of userlist.txt: space-separated columns
 #

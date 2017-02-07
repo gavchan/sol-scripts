@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# --- createuserlist.sh ---
+# --- userlistadd.sh ---
 # 
 # Reads from userlist.txt for automated user and password creation
 # Format of user.txt: space-separated columns:

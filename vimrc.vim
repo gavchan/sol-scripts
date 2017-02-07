@@ -1,4 +1,5 @@
 syntax on
+color desert
 set number
 set showmatch
 set visualbell
